@@ -7,12 +7,10 @@
     <title>{{pageTitle}}</title>
 </head>
 <body>
-    <h1>{{pageTitle}}</h1>
+    {{>_header}}
     <p>
-        {{welcomeMessage}}
+        {{screamIt welcomeMessage}}
     </p>
-    <footer>
-        <p>Copyright: {{currentYear}}</p>
-    </footer>
+    {{>_footer}}
 </body>
 </html>
